@@ -14,6 +14,7 @@ prepare_es(){
 	#Opens ES directory
 	cd /home/tchiclas/Desktop/3ano/2semestre/ES/es19al_14-project || exit
 
+	code .
 	echo "Success !"
 	#These are used to fiz ERROR 2002 which can lead to build fail
 	#Stops mysql server daemon
