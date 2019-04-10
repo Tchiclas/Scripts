@@ -8,6 +8,7 @@ display_usage(){
 	echo "-es     Engenharia de Software"
 	echo
 	echo "-sd     Sistemas Distribuidos"
+	echo "-co     Compiladores"
 }
 
 prepare_es(){
@@ -39,7 +40,7 @@ prepare_sd(){
 prepare_co(){
 		
 	cd /home/tchiclas/Desktop/3ano/2semestre/Compiladores/ || exit
-	subl
+	code .
 	gnome-terminal
 	clear
 	echo "Success!"
