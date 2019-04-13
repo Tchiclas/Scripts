@@ -31,7 +31,8 @@ prepare_xml(){
 	
 	done
 }
-
+#java -cp xml2dot.xml2dot bla.xml
+#dot -Tsvg bla.dot
 prepare_rmv(){
 	cd  /home/tchiclas/Desktop/3ano/2semestre/Compiladores/m19 || exit
 	rm /home/tchiclas/Desktop/3ano/2semestre/Compiladores/apoio_projeto/tests-201903052202/*.xml
